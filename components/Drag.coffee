@@ -1,5 +1,5 @@
 noflo = require 'noflo'
-Hammer = require 'hammer'
+Hammer = require 'hammerjs'
 
 class Drag extends noflo.Component
   description: 'Listen to drag events on a DOM element'
