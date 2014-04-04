@@ -1,0 +1,25 @@
+{
+  "name": "noflo-hammer",
+  "description": "User interaction components for NoFlo based on Hammer.js",
+  "author": "Lionel Landwerlin <lionel.g.landwerlin@linux.intel.com>",
+  "repo": "noflo/noflo-hammer",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "noflo/noflo": "*",
+    "EightMedia/hammer.js": "*"
+  },
+  "scripts": [
+    "components/Drag.coffee",
+    "index.js"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "icon": "user",
+    "components": {
+      "Drag": "components/Drag.coffee"
+    }
+  }
+}
