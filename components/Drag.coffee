@@ -42,10 +42,10 @@ class Drag extends noflo.Component
       @outPorts.end.disconnect())
     @hammer.on('drag', (ev) =>
       if @outPorts.movex.isAttached()
-        @outPorts.movex.send(ev.deltaX)
+        @outPorts.movex.send(ev.gesture.deltaX)
         @outPorts.movex.disconnect()
       if @outPorts.movey.isAttached()
-        @outPorts.movey.send(ev.deltaY)
+        @outPorts.movey.send(ev.gesture.deltaY)
         @outPorts.movey.disconnect())
 
   applyOrCache: (property, value) =>
