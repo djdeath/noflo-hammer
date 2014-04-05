@@ -9,10 +9,10 @@ class Drag extends noflo.Component
       maxtouches: new noflo.Port 'number'
       preventdefault: new noflo.Port 'boolean'
     @outPorts =
-      start: new noflo.ArrayPort 'object'
+      start: new noflo.ArrayPort 'bang'
       movex: new noflo.ArrayPort 'number'
       movey: new noflo.ArrayPort 'number'
-      end: new noflo.ArrayPort 'object'
+      end: new noflo.ArrayPort 'bang'
 
     @options =
       drag_max_touches: 0
