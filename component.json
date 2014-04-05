@@ -11,6 +11,7 @@
   },
   "scripts": [
     "components/Drag.coffee",
+    "components/Tap.coffee",
     "index.js"
   ],
   "json": [
@@ -19,7 +20,8 @@
   "noflo": {
     "icon": "user",
     "components": {
-      "Drag": "components/Drag.coffee"
+      "Drag": "components/Drag.coffee",
+      "Tap": "components/Tap.coffee"
     }
   }
 }
