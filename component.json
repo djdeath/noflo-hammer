@@ -12,6 +12,7 @@
   "scripts": [
     "components/Drag.coffee",
     "components/Pinch.coffee",
+    "components/Rotate.coffee",
     "components/Tap.coffee",
     "index.js"
   ],
@@ -23,6 +24,7 @@
     "components": {
       "Drag": "components/Drag.coffee",
       "Pinch": "components/Pinch.coffee",
+      "Rotate": "components/Rotate.coffee",
       "Tap": "components/Tap.coffee"
     }
   }
