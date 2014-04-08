@@ -11,6 +11,7 @@
   },
   "scripts": [
     "components/Drag.coffee",
+    "components/Pinch.coffee",
     "components/Tap.coffee",
     "index.js"
   ],
@@ -21,6 +22,7 @@
     "icon": "user",
     "components": {
       "Drag": "components/Drag.coffee",
+      "Pinch": "components/Pinch.coffee",
       "Tap": "components/Tap.coffee"
     }
   }
