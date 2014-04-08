@@ -28,6 +28,7 @@ class Tap extends noflo.Component
 
   updateElement: (element) ->
     @disposeElement() if @hammer
+    return unless element
     @hammer = new Hammer(element, @options)
     @hammer.on('tap', () =>
       return unless @outPorts.tap.isAttached()
