@@ -31,6 +31,7 @@ class Drag extends noflo.Component
 
   updateElement: (element) ->
     @disposeElement() if @hammer
+    return unless element
     @hammer = new Hammer(element, @options)
     @hammer.on('dragstart', () =>
       return unless @outPorts.start.isAttached()
